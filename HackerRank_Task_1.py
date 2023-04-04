@@ -12,7 +12,7 @@ for i in range(no_of_customers):
     size, price = map(int, input('size and price').split())
     if (shoe_size_list[size]):
         earned += price
-        shoe_size_list[size] -= 1
+        
 
 
 print(earned)
