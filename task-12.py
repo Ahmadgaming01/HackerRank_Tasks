@@ -5,3 +5,6 @@ for x in range(n):
     print(char.center(clac1," "))
 
 
+for i  in range (n):
+    mit = "H"*n
+    print(mit.center(clac1) + mit.rjust(clac1))
